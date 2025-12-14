@@ -1,8 +1,9 @@
 //falta tamaño de sprites y en las animaciones indicar si la animación se repite.
 
-    this.load.spritesheet("energy", "assets/energy.png", {
-      
-    });
+    this.load.spritesheet("energy", "./assets/energy.png", {
+            frameWidth: 32, 
+            frameHeight: 32
+        });
     this.load.spritesheet("player", "assets/CH_Idle.png", {
       
     });

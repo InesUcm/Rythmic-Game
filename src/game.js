@@ -1,3 +1,8 @@
+import MenuInicio from "./menuInicio.js"
+import Level from "./level.js"
+import MenuLost from "./menuLost.js"
+import MenuWin from "./menuWin.js"
+
 let config = {
   type: Phaser.AUTO,
   parent: "juego",
@@ -9,7 +14,7 @@ let config = {
     height: 512,
     zoom: 1,
   },
-  scene: [],
+  scene: [MenuInicio, Level, MenuLost, MenuWin],
 	fps: {
 		target: 60
 	},
